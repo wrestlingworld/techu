@@ -1,0 +1,147 @@
+/* grid styles */
+
+.container {
+	max-width: 80%;
+	margin: 0 auto; 
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.32%;
+}
+
+.col-5 {
+	width: 41.65%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.31%;
+}
+
+.col-8 {
+	width: 66.6%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.6%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+/* custom styles */
+
+.col-1, .col-2, .col-3,
+.col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9,
+.col-10, .col-11, .col-12 {
+	padding: 1%;
+}
+
+body {
+	font-family: Arial;
+}
+
+h1, h3 {
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	position: relative;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+nav ul li:hover {
+	background-color: #ccc;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	line-height: 1.5em;
+	color: #000;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+nav ul li:hover > ul  {
+	display: inherit;
+}
+
+nav ul ul li {
+	min-width: 150px;
+	display: list-item;
+	position: relative;
+}
+
+.hero {
+	width: 100%;
+}
+
+.avi {
+	width: 100%;
+	border-radius: 50%;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.5em;
+}
