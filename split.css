@@ -7,9 +7,9 @@ body {
 }
 
 .reveal {
-  width: 300px;
-  height: 600px;
-  margin: 20px;
+  width: 600px;
+  height: 800px;
+  margin: -90px 0px;
   float: none;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .plug:hover {
-  background: url(home.png) 0px -410px, url(home.png) 0px 325px, #f6d9ad;
+  background: url(home.png) 0px -410px, url(home.png) 0px 290px, #f6d9ad;
   background-repeat: no-repeat;
 }
 
@@ -54,7 +54,7 @@ body {
   opacity: 1;
   text-decoration: none;
   cursor: pointer;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .tech {
@@ -73,7 +73,7 @@ body {
 }
 
 .tech:hover {
-  background: url(solution.jpg) 0px -410px, url(solution.jpg) 0px 325px, #f6d9ad;
+  background: url(solution.jpg) 0px -410px, url(solution.jpg) 0px 290px, #f6d9ad;
   background-repeat: no-repeat;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .bc:hover {
-  background: url(vintage.jpg) 0px -410px, url(vintage.jpg) 0px 325px, #f6d9ad;
+  background: url(vintage.jpg) 0px -410px, url(vintage.jpg) 0px 290px, #f6d9ad;
   background-repeat: no-repeat;
 }
 
@@ -113,6 +113,6 @@ body {
 }
 
 .team:hover {
-  background: url(minions.jpg) 0px -410px, url(minions.jpg) 0px 325px, #f6d9ad;
+  background: url(minions.jpg) 0px -410px, url(minions.jpg) 0px 290px, #f6d9ad;
   background-repeat: no-repeat;
 }

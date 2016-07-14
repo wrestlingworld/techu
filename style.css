@@ -1,0 +1,64 @@
+body {
+    background-image: url(field.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; /* centers the bg image */
+    background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
+    background-attachment: fixed; /* makes the bg not move */
+    background-size: cover;
+}
+
+
+.id {
+    background-color: #000;
+    position: relative;
+    top: -20px;
+    width: auto;
+    max-width: 1360px;
+    padding-right: -1px;
+    padding-left: -100px;
+    padding-top: 15px;
+    left: 1px;
+}
+
+.motto{
+    position: absolute;
+    right:30px;
+    top:30px;
+
+
+}
+
+#go {
+    position: relative;
+    top: -15px;
+    right: -10px;
+}
+
+p{
+    color:white;
+    display:inline;
+    text-align:right;
+    
+    }
+
+div.pic {
+    text-align: center;
+    margin-top: 240px;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+a:hover{
+font-weight:bold;
+font-style: italic;
+text-decoration: none;
+
+
+}
+

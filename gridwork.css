@@ -1,9 +1,9 @@
 /* grid styles */
 
-.container {
+/* .container {
 	max-width: 80%;
 	margin: 0 auto; 
-}
+} */
 
 * {
 	-webkit-box-sizing: border-box;
@@ -63,6 +63,7 @@
 
 .col-12 {
 	width: 100%;
+	height: 200px;
 }
 
 /* custom styles */
