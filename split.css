@@ -2,36 +2,33 @@
 	text-decoration: none;
 }
 
-body {
-  background: #f6d9ad;
-}
 
 .reveal {
-  width: 600px;
-  height: 800px;
-  margin: -90px 0px;
-  float: none;
+  width: 350px;
+  height: 350px;
+  margin: -80px 150px;
+  float: all;
 }
 
 .plug {
-  background: url(home.png) 0px 0px, url(home.png) 0px 150px, #f6d9ad;
+  background: url(service.jpg) 0px 100px, url(service.jpg) 0px 100px, #fff;
   background-repeat: no-repeat;
   padding-right: 5px;
 
 }
 
 .plug {
-  background: url(home.png) 0px -50px, url(home.png) 0px -150px, #f6d9ad;
+  background: url(service.jpg) 0px 0px, url(service.jpg) 0px 100px, #fff;
   background-repeat: no-repeat;
-  -webkit-transition: background-position 0.1s ease;
-  -moz-transition: background-position 0.1s ease;
-  -o-transition: background-position 0.1s ease;
-  -ms-transition: background-position 0.1s ease;
-  transition: background-position 0.1s ease;
+  -webkit-transition: background-position 0.2s ease;
+  -moz-transition: background-position 0.2s ease;
+  -o-transition: background-position 0.2s ease;
+  -ms-transition: background-position 0.2s ease;
+  transition: background-position 0.2s ease;
 }
 
 .plug:hover {
-  background: url(home.png) 0px -410px, url(home.png) 0px 290px, #f6d9ad;
+  background: url(service.jpg) 0px -200px, url(service.jpg) 0px 200px, #fff;
   background-repeat: no-repeat;
 }
 
@@ -41,11 +38,11 @@ body {
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   text-decoration: none;
   opacity: 0;
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
-  -ms-transition: all 0.1s ease;
-  transition: all 0.1s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .reveal:hover p{
@@ -54,65 +51,65 @@ body {
   opacity: 1;
   text-decoration: none;
   cursor: pointer;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .tech {
-  background: url(solution.jpg) 0px 0px, url(solution.jpg) 0px 150px, #f6d9ad;
+  background: url(interview.jpg) 0px 0px, url(interview.jpg) 0px 150px, #fff;
   background-repeat: no-repeat;
 }
 
 .tech {
-  background: url(solution.jpg) 0px -50px, url(solution.jpg) 0px -150px, #f6d9ad;
+  background: url(interview.jpg) 0px 0px, url(interview.jpg) 0px 0px, #fff;
   background-repeat: no-repeat;
-  -webkit-transition: background-position 0.1s ease;
-  -moz-transition: background-position 0.1s ease;
-  -o-transition: background-position 0.1s ease;
-  -ms-transition: background-position 0.1s ease;
-  transition: background-position 0.1s ease;
+  -webkit-transition: background-position 0.2s ease;
+  -moz-transition: background-position 0.2s ease;
+  -o-transition: background-position 0.2s ease;
+  -ms-transition: background-position 0.2s ease;
+  transition: background-position 0.2s ease;
 }
 
 .tech:hover {
-  background: url(solution.jpg) 0px -410px, url(solution.jpg) 0px 290px, #f6d9ad;
+  background: url(interview.jpg) 0px -200px, url(interview.jpg) 0px 200px, #fff;
   background-repeat: no-repeat;
 }
 
 .bc {
-  background: url(vintage.jpg) 0px 0px, url(vintage.jpg) 0px 150px, #f6d9ad;
+  background: url(looking.jpg) 0px 0px, url(looking.jpg) 0px 100px, #fff;
   background-repeat: no-repeat;
 }
 
 .bc {
-  background: url(vintage.jpg) 0px -50px, url(vintage.jpg) 0px -150px, #f6d9ad;
+  background: url(looking.jpg) 0px 0px, url(looking.jpg) 0px -150px, #fff;
   background-repeat: no-repeat;
-  -webkit-transition: background-position 0.1s ease;
-  -moz-transition: background-position 0.1s ease;
-  -o-transition: background-position 0.1s ease;
-  -ms-transition: background-position 0.1s ease;
-  transition: background-position 0.1s ease;
+  -webkit-transition: background-position 0.2s ease;
+  -moz-transition: background-position 0.2s ease;
+  -o-transition: background-position 0.2s ease;
+  -ms-transition: background-position 0.2s ease;
+  transition: background-position 0.2s ease;
 }
 
 .bc:hover {
-  background: url(vintage.jpg) 0px -410px, url(vintage.jpg) 0px 290px, #f6d9ad;
+  background: url(looking.jpg) 0px -200px, url(looking.jpg) 0px 200px, #fff;
   background-repeat: no-repeat;
 }
 
 .team {
-  background: url(minions.jpg) 0px 0px, url(minions.jpg) 0px 150px, #f6d9ad;
+  background: url(voice.png) 0px 0px, url(voice.png) 0px 100px, #fff;
   background-repeat: no-repeat;
 }
 
 .team {
-  background: url(minions.jpg) 0px -50px, url(minions.jpg) 0px -150px, #f6d9ad;
+  background: url(voice.png) 0px 0px, url(voice.png) 0px 0px, #fff;
   background-repeat: no-repeat;
-  -webkit-transition: background-position 0.1s ease;
-  -moz-transition: background-position 0.1s ease;
-  -o-transition: background-position 0.1s ease;
-  -ms-transition: background-position 0.1s ease;
-  transition: background-position 0.1s ease;
+  -webkit-transition: background-position 0.2s ease;
+  -moz-transition: background-position 0.2s ease;
+  -o-transition: background-position 0.2s ease;
+  -ms-transition: background-position 0.2s ease;
+  transition: background-position 0.2s ease;
 }
 
 .team:hover {
-  background: url(minions.jpg) 0px -410px, url(minions.jpg) 0px 290px, #f6d9ad;
+  background: url(voice.png) 0px -200px, url(voice.png) 0px 220px, #fff;
   background-repeat: no-repeat;
 }
