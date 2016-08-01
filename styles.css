@@ -139,8 +139,8 @@ img {
 }
 
 .block {
-    padding-top: 15px;
-    margin-left: 55px;
+    padding-top: 5px;
+    margin-left: 25px;
     margin-right: 5px;
  }
 
@@ -164,15 +164,14 @@ ul {
 }
 
 li {
-    float: center;
+    float: none;
     display: inline-block;
 }
 
 .grab {
     position: relative;
-    z-index: 1;
     padding-right: auto;
-    padding-left: 30px;
+    padding-left: auto;
 }
 
 li a {
